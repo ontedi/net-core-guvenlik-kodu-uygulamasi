@@ -1,4 +1,5 @@
 # net-core-guvenlik-kodu-uygulamasi
 .Net Core ile güvenlik kodu uygulaması yapıyoruz.
 
-(https://user-images.githubusercontent.com/3786786/127771400-006be079-baa7-4e17-87bd-a7e6cb491513.JPG)
+![1](https://user-images.githubusercontent.com/3786786/127771422-f9ec7f76-f133-4daa-be2a-83976d1fcbb8.JPG)
+
