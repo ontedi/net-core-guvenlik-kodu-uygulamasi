@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Güvenlik Kodu Uygulaması</title>
+    <style>
+        *{margin:0;padding:0;}
+        body{font-family:Arial,sans-serif;font-size:14px;}
+        .kapsul{width:400px;background-color:#f9f9f9;margin:30px auto;padding:5px;border:1px solid #d1d1d1;}
+        .kolon{float:left;width:50%;}
+        .cb{clear:both;margin-bottom:5px;}
+        .cp{cursor:pointer;}
+    </style>
+</head>
+<body>
+    <section class="kapsul">
+        <div class="kolon">Kullanıcı Adı:</div>
+        <div class="kolon"><input type="text" /></div>
+        <div class="cb"></div>
+        <div class="kolon">Şifre:</div>
+        <div class="kolon"><input type="password" /></div>
+        <div class="cb"></div>
+        <div class="kolon">Güvenlik Kodu:</div>
+        <div class="kolon"><img class="js-img-guvenlik-kodu cp" alt="Güvenlik Kodu" src="/araclar/guvenlik_kodu" /></div>
+        <div class="cb"></div>
+    </section>
+    <script>
+        var imgGiris_Guvenlik_Kodu = document.querySelector('.js-img-guvenlik-kodu');
+        if (imgGiris_Guvenlik_Kodu != null) {
+            imgGiris_Guvenlik_Kodu.addEventListener("click", function (event) {
+                imgGiris_Guvenlik_Kodu.src = '/araclar/guvenlik_kodu?' + new Date().getTime();
+            });
+        }
+    </script>
+</body>
+</html>
