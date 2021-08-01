@@ -1,5 +1,6 @@
 # net-core-guvenlik-kodu-uygulamasi
 .Net Core ile güvenlik kodu uygulaması yapıyoruz. İçerisini güzelleştirmek için kullandıklarımız.
+- Net Core
 - MVC
 - Session
 - JavaScript
