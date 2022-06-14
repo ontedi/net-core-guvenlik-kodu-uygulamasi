@@ -1,4 +1,4 @@
-# net-core-guvenlik-kodu-uygulamasi
+# Asp.Net Core Güvenlik Kodu Uygulaması
 .Net Core ile güvenlik kodu uygulaması yapıyoruz. İçerisini güzelleştirmek için kullandıklarımız.
 - Net Core
 - MVC
